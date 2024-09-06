@@ -20,14 +20,16 @@ h1{
     height: 70px;
     display: flex;
     justify-content:space-around;
-    a {
+    
+}
+
+#barra_superior a {
         color: white;
         font-family:Tahoma;
         font-weight: 600;
         font-style: normal;
         text-decoration: none;
         margin-top:25px;
-    }
 }
 
 #barra_superior a:hover{

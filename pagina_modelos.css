@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#barra_superior {
+
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+#barra_superior a {
+    color: white;
+    font-family:Tahoma;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    margin-top:25px;
+}
+
+#box_tudo {
+    display: grid;
+    margin-top: 50px;
+    
+}
+#model_classic {
+
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#model_roadster {
+    grid-column: 2;
+    grid-row: 1;
+}
