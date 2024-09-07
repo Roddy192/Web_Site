@@ -23,19 +23,24 @@ h1{
     
 }
 
-#barra_superior a {
+#div_botao_superior a {
         color: white;
         font-family:Tahoma;
         font-weight: 600;
         font-style: normal;
         text-decoration: none;
-        margin-top:25px;
+        padding: 10px 5px 10px;
+        justify-content: space-around;
+
+        
 }
 
-#barra_superior a:hover{
+#div_botao_superior:hover{
     background-color: rgb(121, 121, 235);
-    border-radius: 10px;
-    height: 25px;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+    justify-content: space-around;
+
 }
 
 #barra_servicos {
@@ -44,9 +49,18 @@ h1{
     margin-top: 0%;
     background-color: rgb(60, 60, 60);
     height: 60px;
+    
+}
+
+#barra_servicos a {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bolder;
-    font-size: 35px;
+    color: white;
+    font-size: 30px;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+
 }
 
 #upper_img {
@@ -54,13 +68,7 @@ h1{
     margin-bottom: 0%;
 }
 
-#bserv {
-    justify-content:space-around;
-    border: solid black;
-    text-decoration: none;
-    color: white;
 
-}
 #new_more_box {
     display: flex;
     margin-top: 80px;
