@@ -28,6 +28,7 @@
 #box_tudo {
     display: grid;
     margin-top: 50px;
+    padding: 10px;
 }
 
 #box_tudo img {
@@ -43,13 +44,55 @@
     background-color: rgb(60, 60, 60);
     width: 600px;
 }
+
+
+
 #model_classic {
 
     grid-column: 1;
     grid-row: 1;
+    padding: 20px;
 }
 
 #model_roadster {
     grid-column: 2;
     grid-row: 1;
+    padding: 20px;
+}
+
+#model_bobber {
+    padding: 20px;
+}
+
+#model_adventure {
+    padding: 20px;
+}
+
+#model_city {
+    padding: 20px;
+}
+#model_speed {
+    padding: 20px;
+}
+
+#barra_inferior {
+    display: flex;
+    justify-content: center;
+}
+
+#barra_inferior button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight:bolder;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgb(60, 60 ,60);
+    color: white;
+}
+
+#barra_inferior button:hover {
+    background-color: rgb(102, 18 ,44) ;
+
+
 }
